@@ -201,6 +201,47 @@ main{
     color: #F1833E;
 }
 
+#butdownload{
+    background-color: #F1833E;
+    width: 120px;
+    height:31px ;
+    border-radius: 4px;
+    padding-left: 10px;
+    color: white;
+    border: none;
+    margin-left: 90px;
+}
+
+#butdownload i{
+    padding-right: 5px;
+    margin-left: -10px;
+}
+
+#butfavorito{
+    background-color: #F1833E;
+    color: white;
+    border: none;
+    width: 43px;
+    height:31px;
+    border-radius: 4px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#butdoi{
+    background-color: #F1833E;
+    color: white;
+    border: none;
+    width: 43px;
+    height:31px;
+    border-radius: 4px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 #comocitar{
     position: absolute;
     top: 40px;
@@ -288,45 +329,6 @@ p{
     font-family:Roboto;
 }
 
-#butdownload{
-    background-color: #F1833E;
-    width: 120px;
-    height:31px ;
-    border-radius: 4px;
-    padding-left: 10px;
-    color: white;
-    border: none;
-    margin-left: 90px;
-}
-
-#butdownload i{
-    padding-right: 5px;
-    margin-left: -10px;
-}
-
-#butfavorito{
-    background-color: #F1833E;
-    color: white;
-    border: none;
-    width: 43px;
-    height:31px;
-    border-radius: 4px;
-    margin-left: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#butdoi{
-    background-color: #F1833E;
-    color: white;
-    border: none;
-    width: 43px;
-    height:31px;
-    border-radius: 4px;
-    margin-left: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
 .secdiscussoes{
     grid-area: secdiscussoes;
@@ -350,10 +352,67 @@ p{
 }
 
 .secdiscussoes h4{
-    font-family: Roboto;
-    color: #F1833E;
-    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-size: 14px;
     margin-top: 10px;
+}
+
+.secdiscussoes .definaumtopico{
+    display: flex;
+    justify-content: center;
+}
+
+.secdiscussoes .definaumtopico div{
+    display: flex;
+    padding-left: 25px;
+    padding-top: 10px;
+    margin-bottom: 7px;
+    width: 95%;
+    border: 1px solid #CCCCCC;
+}
+
+.secdiscussoes h5{
+    display: flex;
+    padding-left: 15px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #F0813D;
+}
+
+.secdiscussoes .containerbutton{
+    border: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 97.5%;
+    height: 113px;
+    position: relative;
+    margin-left: 12px;
+}
+
+.secdiscussoes .containerbutton div{
+    position: absolute;
+    width: 100%;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:#CCCCCC;
+}
+
+.secdiscussoes .containerbutton p i{
+    padding: 10px 10px 0px 25px;
+}
+
+.secdiscussoes .containerbutton div button{
+    width: 205.1px;
+    height: 31px;
+    background-image: linear-gradient(to top, #F1833E,#FEB154 );
+    font-size: 15px;
+    color: white;
+    border: 0;
 }
 
 .secdiscussoes img{
@@ -367,49 +426,19 @@ p{
     font-size: 15px;
 }
 
-.secdiscussoes #butcriartopico{
-    width: 133px;
-    height: 32px;
-    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
-    color:white;
-    font-weight: bolder;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 15px;
-    border-radius: 5px;
-    border:1px solid #ffffff;
-    box-shadow: 0px 2px 2px 0px #00000031;
-    position: relative;
-}
-
-.secdiscussoes #butcriartopico::before, .secdiscussoes #butcriartopico::after{
-    position: absolute;
-    content:'';
-    height: 1px;
-    width: 450px;
-    background-color: #E7E7E7;
-    bottom: 50%;
-    right: 50px;
-}
-
-.secdiscussoes #butcriartopico::after{
-    left: 131px;
-}
-
-.secdiscussoes #butcriartopico::before{
-    right: 131px;
-}
 
 /*Sessão Assunto*/
 
 .assunto{
     text-align: left;
     padding: 10px 12px;
+    
 }
 
 .assunto .inassunto{
     border: 1px solid #E7E7E7;
-    padding: 10px;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .assunto h3{
@@ -461,8 +490,8 @@ p{
 
 .assunto2 .inassunto2{
     border: 1px solid #E7E7E7;
-    padding: 10px;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .assunto2 h3{
