@@ -12,6 +12,7 @@
 /* Body */
 body{
     height: 100%;
+    width: 100%;
     display: grid;
     grid-template-areas: 
     "aside header"
@@ -164,8 +165,6 @@ nav h4{
 /*Main*/
 main{
     position: relative;
-    height: 100%;
-    width: 100%;
     padding: 20px;
     display: grid;
     grid-template-areas: 
