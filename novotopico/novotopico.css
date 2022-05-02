@@ -3,12 +3,6 @@
     padding: 0;
 }
 
-
-
-:root{
-    --font-quick: 'Quicksand', sans-serif;
-}
-
 /* Body */
 body{
     height: 100%;
@@ -186,9 +180,6 @@ main{
     position: relative;
 }
 
-.titulo button {
-    margin-right: 5px;
-}
 
 .titulo h1{
     font-family: Roboto;
@@ -199,6 +190,11 @@ main{
     letter-spacing: 0.05em;
     text-align: left;
     color: #F1833E;
+}
+
+.titulo div{
+    display: flex;
+    padding-right: 8px;
 }
 
 #butdownload{
@@ -245,7 +241,7 @@ main{
 #comocitar{
     position: absolute;
     top: 40px;
-    right: 10px;
+    right: 15px;
     font-weight: bolder;
 }
 
@@ -259,7 +255,7 @@ main{
     grid-area: detalhes;
     height: 447px;
     width: 240px;
-    margin-left: -300px;
+    margin-left: -307px;
     font-family: Roboto;
     border:1px solid #e4dbdb;
 }
@@ -333,7 +329,7 @@ p{
 .secdiscussoes{
     grid-area: secdiscussoes;
     width: 1058px;
-    height: 621px;
+    height: 635px;
     text-align: center;
     align-items: center;
     border: 1px solid #ECECEC;
@@ -372,6 +368,10 @@ p{
     border: 1px solid #CCCCCC;
 }
 
+.secdiscussoes .definaumtopico div p{
+    font-family: 'Quicksand', sans-serif;
+}
+
 .secdiscussoes h5{
     display: flex;
     padding-left: 15px;
@@ -390,6 +390,17 @@ p{
     height: 113px;
     position: relative;
     margin-left: 12px;
+    position: relative;
+}
+
+.secdiscussoes .containerbutton::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 1027px;
+    background-color: #E7E7E7;
+    top: 128px;
+    
 }
 
 .secdiscussoes .containerbutton div{
@@ -432,7 +443,7 @@ p{
 .assunto{
     text-align: left;
     padding: 10px 12px;
-    
+    margin-top: 30px;
 }
 
 .assunto .inassunto{
@@ -537,8 +548,9 @@ p{
 }
 
 footer{
-    margin-top: 60px;
+    
     margin-left: 22px;
+    padding-top: 60px;
 }
 
 
