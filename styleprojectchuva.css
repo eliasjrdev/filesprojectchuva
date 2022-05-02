@@ -403,7 +403,14 @@ p{
 
 .assunto{
     text-align: left;
-    padding: 15px 20px;
+    padding: 10px 12px;
+    
+}
+
+.assunto .inassunto{
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .assunto h3{
@@ -450,7 +457,13 @@ p{
 /*Sessão Assunto 2*/
 .assunto2{
     text-align: left;
-    padding: 15px 20px;
+    padding: 10px 12px;
+}
+
+.assunto2 .inassunto2{
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .assunto2 h3{
@@ -496,7 +509,7 @@ p{
 }
 
 footer{
-    margin-top: 20px;
+    margin-top: 60px;
     margin-left: 22px;
 }
 
