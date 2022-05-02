@@ -357,19 +357,13 @@ p{
 .secdiscussoes .definaumtopico{
     display: flex;
     justify-content: center;
+    padding: 10px;
+
 }
 
-.secdiscussoes .definaumtopico div{
-    display: flex;
-    padding-left: 25px;
-    padding-top: 10px;
-    margin-bottom: 7px;
-    width: 95%;
+.secdiscussoes .definaumtopico textarea{
     border: 1px solid #CCCCCC;
-}
-
-.secdiscussoes .definaumtopico div p{
-    font-family: 'Quicksand', sans-serif;
+    padding: 5px 0px 0px 25px;
 }
 
 .secdiscussoes h5{
@@ -381,7 +375,6 @@ p{
 }
 
 .secdiscussoes .containerbutton{
-    border: 1px solid #CCCCCC;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -391,6 +384,11 @@ p{
     position: relative;
     margin-left: 12px;
     position: relative;
+}
+
+.secdiscussoes .containerbutton textarea{
+    border: 1px solid #CCCCCC;
+    padding: 10px;
 }
 
 .secdiscussoes .containerbutton::after{
