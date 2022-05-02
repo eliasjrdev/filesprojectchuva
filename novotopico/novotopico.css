@@ -12,7 +12,6 @@ body{
     "aside header"
     "aside main"
     "aside footer";
-    grid-template-columns: 1fr 1146px;
 }
 
 /*Aside */
@@ -160,14 +159,15 @@ nav h4{
 main{
     position: relative;
     height: 100%;
-    width: 100%;
-    padding: 20px;
+    width: 1086px;
+    padding: 20px 20px 20px 30px;
     display: grid;
     grid-template-areas: 
     "titulo titulo"
     "video detalhes"
     "resumo resumo"
     "secdiscussoes secdiscussoes";
+    grid-template-columns: 75% 1fr;
 }
 
 
@@ -175,7 +175,7 @@ main{
     padding: 2px;
     padding-bottom: 15px;
     display: flex;
-    width: 95%;
+    width: 1080px;
     height: 50px;
     position: relative;
 }
@@ -194,7 +194,7 @@ main{
 
 .titulo div{
     display: flex;
-    padding-right: 8px;
+    padding-right: 28px;
 }
 
 #butdownload{
@@ -241,7 +241,7 @@ main{
 #comocitar{
     position: absolute;
     top: 40px;
-    right: 15px;
+    right: 30px;
     font-weight: bolder;
 }
 
@@ -255,7 +255,6 @@ main{
     grid-area: detalhes;
     height: 447px;
     width: 240px;
-    margin-left: -307px;
     font-family: Roboto;
     border:1px solid #e4dbdb;
 }
